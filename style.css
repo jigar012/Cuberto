@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 50px;
+    gap: 1vh;
+}
+
+#nav img{
+    width: 100px;
+}
+
+#nav a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    padding: 2vh;
+    font-size: 2.5vh;
+    letter-spacing: -.5px;
+}
+
+#nav i{
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+
+
+#home #homemain{
+    width: 100%;
+    padding: 28vh 38vh;
+
+}
+
+#homemain h1{
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+
+#heading{
+    display: flex;
+    gap: 30px;
+}
+
+#homemain #heading h1{
+    font-size: 14vh;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -2px;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#homemain #heading h1:hover{
+    color: #000;
+}
+
+#homelast{
+    padding: 7vh 38vh;
+    text-align: center;
+}
+
+#homelast p{
+    font-size: 1.6vw;
+    font-weight: 500;
+    letter-spacing: -.5px;
+}
+
+#homelast p::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+#featured{
+    padding: 10vw 15vw;
+}
+
+#fheading>h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+#fheading>h1:nth-child(2){
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+}
+
+#string{
+    /* background-color: #000; */
+    height: 300px;
+    width: 100%;
+}
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    /* padding: 0vw 15vw; */
+    margin-top: 10vw;
+    /* border: 2px solid red; */
+
+}
+
+#fleft{
+    overflow: hidden;
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid blue; */
+}
+
+.fleftelm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+    /* background-color: red; */
+}
+
+.fleftelm h1{
+    font-size: 2vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.7vw 0;
+}
+
+.fleftelm h4{
+    opacity: .5;
+}
+
+.fleftelm h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+
+#fright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 45%;
+    height: inherit;
+}
+
+#fright #images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#fright #images img{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+
+}
+
+#btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btndiv button{
+    padding: 1vw 2vw;
+    border-radius: 100px;
+    border: 2px solid #0000005e;
+    background-color: #fff;
+    font-size: 1.3vw;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+#dev h1{
+    font-size: 4vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;  
+}
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+
+#slides{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#slide{
+    width: 30%;
+}
+
+#slide #img{
+    width: 100%;
+    height: 270px;
+}
+
+#slide #img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#slide #tag{
+    margin: 20px 0;
+    padding: 10px 22px ;
+    background-color: #f7f7f7;
+    width: fit-content;
+    border-radius: 100px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto; 
+  }
+  
+  .logo {
+    width: 100px; 
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
